@@ -1,12 +1,15 @@
 # Mac Dev Setup Guide
 
-> Reference: [MacOS Setup Guide](https://sourabhbajaj.com/mac-setup/)
 
-# Change some keyboard shortcuts to my liking
+# General Setup
+
+## Change keyboard shortcuts to my liking
+
+> `Hyper = Ctrl + Opt + CMD + Shift`
 
 - Mission Control
-  - Set MissionControl to use `Ctrl + Up` and bind it to `Mouse Button 4` (back button)
-  - Set ApplicationWindow to use `Ctrl + Down` and bind it to `Mouse Button 5` (forward button)
+  - Set Mission Control to use `Ctrl + Up` and bind it to `Mouse Button 4` (back button)
+  - Set Application Window to use `Ctrl + Down` and bind it to `Mouse Button 5` (forward button)
   - Set ShowDesktop to use `Hyper + Down`
 - Siri
   - Set Siri to use `Hyper + Space`
@@ -19,18 +22,21 @@
     - Input Sources: Set `Ctrl + Space` to switch input source
     - Spotlight: Disable Spotlight shortcut (Cmd + Space) as we will use it for Raycast / Alfred
 
-# Show hidden files
+## Show hidden files
 
 > `defaults write com.apple.finder AppleShowAllFiles YES`
 
 Then relaunch Finder app (hold OPTION key while right click finder icon in the task bar, then choose relaunch)
 
-# XCode
+
+# Install Software
+
+## Install XCode
 
 Install XCode tool (it is required by Homebrew)
 > `xcode-select --install`
 
-# Homebew
+## Install Homebew
 
 Install Homebrew:
 > `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"`
@@ -43,7 +49,95 @@ Follow the instructions after installation to add Homebrew to your PATH variable
 Verify Homebrew installation by:
 > `brew doctor`
 
+### Install Apps with Homebrew
+> `brew install --cask <appName>`
+
+Use [this page](https://formulae.brew.sh/) to check the formula name and the command to run installation
+
+Install these:
+- Web browsers:
+  - Chrome
+  - Firefox
+  - Edge
+- Communication:
+  - Slack
+  - Zoom
+  - Microsoft Team
+  - Discord
+- Cloud storage:
+  - Dropbox
+  - Google Drive (this may also install Google Office apps)
+- Music:
+  - Spotify 
+- Graphic design and photos:
+  - qView (photo viewer)
+  - ImageOptim (image optimisation tool)
+  - GIMP (Photoshop alternative app)
+- Video playback and conversion:
+  - VLC
+  - Handbrake (converting various video formats)
+- Web & text editors:
+  - VS Code
+  - BBEdit (text editor)
+- Database clients:
+  - DBeaver (MSSQL client)
+  - Sequel Ace (MySQL client)
+- Web development tools:
+  - Sourcetree
+  - GitHub Desktop
+  - Docker
+  - Postman (API testing tool)
+  - Postman Agent (helper tool for Postman, such as capturing login session via browser so you can test API as you're already logged in)
+  - CyberDuck (FTP client)
+  - DevToys (a app provides many handy tools and functions for developers)
+  - Keystore Explorer (for managing Java keystore)
+- Terminal related:
+  - iTerm (better terminal than Mac's built-in one)
+  - Fig (great terminal tool that provides handy functions such as auto-complete)
+- Remote desktop and VPN:
+  - MS Remote Desktop
+  - OpenVPN
+- Malwarebytes / Raycast (Alfred alternative) / TheUnarchiver / AltTab / AppCleaner (uninstaller) / [MediaInfo](https://github.com/sbarex/MediaInfo) / Mounty (ntfs drive write tool)
+- Stats (system info in menu bar) / Rectangle (windows management) / Mos (great mouse helper tool) / Monitor Control / Karabiner-Elements (keyboard keys mapping tool) (follow my github repo to import and use my setup)
+- Shottr (better screenshot tool) / Netspot (wifi analyser)
+- HiddenBar / xBar / Itsycal (quick calendar on menu bar) / FlyCut (clipboard tool) / Captin (caps lock indicator)
+- SuperDuper (folder sync & drive backup tool) / Numi (smart calculator) / Kap (screen recording) / TRex (OCR tool) / Youtube to MP3 / FreeRuler
+- CamoStudio (use iphone as camera in Mac)
+- Steam / Epic Games Launcher / OpenEmu
+
+### Install software from Mac App Store
+
+- Communication:
+  - Line
+- Music:
+  - MyTuner Radio (listen to live radio worldwide)
+- Apps (group 2):
+  - Dropover (file/image/text holder for various quick tasks)
+  - Later (save your current session such as opened apps and windows, and easily restore them later when you need to)
+- Apps (group 3):
+  - Amphetamine (makes monitor screen & mac machine always on)
+  - Hand Mirror (quickly display what your camera ss)
+
+### Others
+
+These apps are not in Homebrew nor in Mac App Store, download them from their websites and install
+
+- Communication:
+  - Google Chat (open and login into Google Chat website, then click the "Install" icon in the URL bar)
+- Remote desktop & VPN:
+  - Chrome Remote Desktop
+- Google Office
+- Hardware device apps:
+  - Streamdeck
+  - Logitech G Hub (for my G303/G305 mouse)
+  - Logitech Option (for my MX Master 2S mouse)
+  - Other hardware software...
+- Java 8
+  - (version 1.8, download from java.com)
+
+
 # Install Zsh & Oh My Zsh
+
 
 Install Zsh
 > `brew install zsh`
@@ -51,7 +145,9 @@ Install Zsh
 Install Oh My Zsh
 > `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
 
-Update the Zsh configuration file at: 
+## Update the Zsh configuration file
+
+The file can be found at: 
 `~/.zshrc`
 
 ### Plugins
@@ -60,7 +156,7 @@ Update `~/.zshrc` file and set the plugins, separate them each by space. For exa
 
 > `plugins=(aliases aws bbedit colored-man-pages colorize copyfile git isodate macos nmap rsync systemadmin sudo themes transfer zsh-navigation-tools)`
 
-See [this page](https://github.com/unixorn/awesome-zsh-plugins) for a list of plugins
+See [this page](https://github.com/unixorn/awesome-zsh-plugins) for the full list of plugins. Below is the plugins I install:
 
 - aliases: `alias` (list all zsh aliases)
 - aws: see [plugin page](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/aws)
@@ -264,51 +360,7 @@ Create a oh-my-zsh custom file (can be any name, such as "aliases.zsh" at the fo
 - Create `rg` to use **rg** and don't take .gitignore file into consideration:
   - > `alias rg='rg --no-ignore'`
 
-# Install software
 
-### Homebrew
-> `brew install --cask <appName>`
-
-Use [this page](https://formulae.brew.sh/) to check the formula name and the command to run
-
-Install these:
-- Chrome / Firefox / Edge
-- Slack / Zoom / MS Team / Discord
-- Dropbox / Google Drive (This will also install Google Office apps)
-- Spotify 
-- qView / ImageOptim / GIMP
-- VLC / Handbrake
-- VS Code / BBEdit
-- DBeaver / Sequel Ace
-- Sourcetree / GitHub Desktop / Docker / Postman / Postman Agent / CyberDuck / DevToys / Keystore Explorer 
-- iTerm / Fig (best terminal tool)
-- MS Remote Desktop / OpenVPN
-- Malwarebytes / Raycast (Alfred alternative) / TheUnarchiver / AltTab / AppCleaner (uninstaller) / [MediaInfo](https://github.com/sbarex/MediaInfo) / Mounty (ntfs drive write tool)
-- Stats (system info in menu bar) / Rectangle (windows management) / Mos (great mouse helper tool) / Monitor Control / Karabiner-Elements (keyboard keys mapping tool) (follow my github repo to import and use my setup)
-- Shottr (better screenshot tool) / Netspot (wifi analyser)
-- HiddenBar / xBar / Itsycal (quick calendar on menu bar) / FlyCut (clipboard tool) / Captin (caps lock indicator)
-- SuperDuper (folder sync & drive backup tool) / Numi (smart calculator) / Kap (screen recording) / TRex (OCR tool) / Youtube to MP3 / FreeRuler
-- CamoStudio (use iphone as camera in Mac)
-- Steam / Epic Games Launcher / OpenEmu
-
-### Mac App Store
-> `mac search <app>` to find the app & its ID then `mas install <appID>` to install
-
-*Note: at this time of writing, mas install does not work for me as the signin command does not work for new OS versions. Install these using the Store app*
-
-- Line
-- MyTuner Radio
-- Dropover (file/image/text holder for various tasks) / Later (save your session/app/windows and restore them later)
-- Amphetamine (make screen & mac always on) / Hand Mirror (quick camera tool to see yourself in)
-
-### Others
-
-- Google Chat (login into Google Chat, then click the "Install" icon in the URL bar)
-  - Ensure before install it, you login into Google Chat website with the account you want to use Google Chat app with (i.e. the work account, not personal account)
-- Chrome Remote Desktop
-- Google Office
-- Streamdeck / Logitech G Hub / Logitech Option / Other hardware software...
-- Java 8 (version 1.8, from java.com)
 
 # iTerm2
 
