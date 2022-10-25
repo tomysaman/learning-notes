@@ -141,34 +141,34 @@ Use Homebrew to install these commands:
 > `brew install <command>`
 
 Install these:
-- exa (ls alternative)
+- exa (`ls` alternative)
   - `l` or `la` to list files
   - `l --tree` to list files in tree structure
   - See the alias section below on how to setup the aliases above
-- tldr (simplified man page)
+- tldr (simplified `man` page)
   - `tldr <command>` to list a few of examples on how to use that command
 - mcfly (a better command history search tool)
   - Add `eval "$(mcfly init zsh)"` to `~/.zshrc` to complete the setup after installing mcfly
   - Use `ctrl + r` to activate
-- fd (find alternative, search filename using regexp)
+- fd (`find` alternative, search filename using regexp)
   - `fd <search term in regexp>` to find files/directories with name matching the regexp
 - fzf (a fuzzy filtering tool that take input and do filtering)
   - `fd | fzf` (or just `fzf`) to filter & search files (i.e. fzf takes the output of fd as input and lets you perform searching and filtering to see result on the fly)
   - `ps aux | fzf` to filter & search processes
-- ripgrep (grep alternative, search file content using regexp)
+- ripgrep (`grep` alternative, search file content using regexp)
   - `rg <search term in regexp>` to find files with content matching the regexp
 - autojump (smart directory navigation)
   - See the message after brew install to add the required command into `~/.zshrc` to finish the setup
   - `j <directoryName>` to jump to that directory without the need to type out its path
-- httpie (curl alternative)
+- httpie (`curl` alternative)
   - [docs](https://httpie.io/docs/cli/examples)
   - `https [method] [address] param1=value1 param2=value2...` - where params are either URL var or FORM var
   - `http` to do the same thing but using http instead of https
 - wget (download file from the web)
   - `wget <URL>`
-- bat (better version of cat with syntax highlighting)
+- bat (better version of `cat` with syntax highlighting)
   - `bat <file>` to show the file's content
-- gdu (see disk & directory space usage info, similar to ncdu)
+- gdu (see disk & directory space usage info, similar to `ncdu`)
   - `gdu` to activate
   - Use `left`/`right` to navigate between child and parent, use `d` key to delete item
 - icdiff (diff tool)
@@ -204,8 +204,6 @@ Install these:
       - default themes are: default, eldar, grayscale, monocai, night-owl, solarized-dark, and solarized-light
   - follow my [github repo](https://github.com/tomysaman/cf-lnav-cfml-logger-format) to import the cflog file rule and also to see how to create your own rule
 
-
-
 - `jq` (json parser)
   - [docs](https://jqplay.org/)
   - `jq '[filter]' [json_file]` or `echo [json_content_text] | jq '[filter]'` or `curl [rest_api_endpoint] | jq '[filter]'`
@@ -218,40 +216,38 @@ Install these:
   - [docs](https://pandoc.org/demos.html)
   - also install the pdf engine `basictex` in order to convert to pdf
   - `pandoc [source.md] -o [output.pdf]`
-- `fanyi` (translation to Chinese)
 - `pass` (password manager)
   - `pass` to list all pw names
   - `pass <path>/<to>/<name>` to reveal the pw (but don't do this as the pw will be printed in terminal, do `-c` instead)
   - `pass -c <name>` to copy the pw into clipboard
   - `pass insert <name>` to create a pw or `pass generate <name>` to create a pw with a randomly generated password
   - `pass edit <name>` to change a pw, `pass rm <name>` to delete a pw
+- `pinentry-mac` (gpg utility used by some of the apps I installed)
 - `task` (TaskWarrior for task management)
   - [docs](https://taskwarrior.org/docs/)
   - `task add <name>`, `task delete <name>`, `task done <number>`, `task next`
 - `timewarrior` (time tracking)
   - [docs](https://timewarrior.net/docs/)
   - `timew start <task>`, `timew stop`, `timew continue`, `timew summary`
-- `speedtest-cli`
-- `youtube-dl`
-- `pinentry-mac` (gpg utility used by some of the apps I installed)
-- `git-extras` (extra commands for git)
-  - [docs](https://github.com/tj/git-extras/blob/master/Commands.md)
-- Docker
+- speedtest-cli (run speed test in your terminal)
+  - `speedtest-cli` to start the test
+- youtube-dl (download Youtube video as video or music file)
+  - `youtube-dl -x --audio-format mp3 <url>` to download the video as a mp3 file
+- fanyi (Chinese translation tool)
+  - `fanyi <word>` to translate it between English & Chinese and also pronounce it
+- cowsay (output ascii art of a cow saying a sentence)
+  - `cowsay -f [art] [text to say]` (or use `cowthink` instead of cowsay)
+  - `cowsay -l` to see what arts can be used
+- For Git:
+  - `git-extras` (provide extra Git commands and aliases)
+    - [docs](https://github.com/tj/git-extras/blob/master/Commands.md)
+- For Docker:
   - `ctop` (docker system monitoring)
   - `lazydocker` (manage docker containers)
-- Node.js
-  - `node` (note: it is probably already installed by another program in this list)
-- Python
-  - `python` (note: it is probably already installed by another program in this list)
-- `cowsay` (display ascii art of a cow saying a sentence)
-  - cowsay -l to see what art can be used
-  - cowsay or cowthink -f [art] [text to show]
-- `mas` (use command line to install app from Mac App Store)
-  - `mas search <term>` to search, each app will be listed along with its ID
-  - `mas install <appID>` to install
-  - `mas list` to list all installed apps
-  - `mas outdated` to list apps that need update then `mas upgrade` to upgrade them all
-  - If you haven't signin, open App store to signin, or run `mac signin <email>`
+- For Node.js:
+  - `node`
+- For Python:
+  - `python`
 
 
 # Install Zsh & Oh My Zsh
@@ -522,3 +518,11 @@ Download and install Sun/Oracle's [Java 8]() (version 1.8) and install it
 
 Use settings sync (login with my GitHub account) to sync all my settings automatically
 
+# OS updates
+
+Sometimes MacOS updates can break things, especially when upgrading to a new major version.
+
+## Xcode command line tools
+
+If you see oh my zsh error message when open up iTerm:  `[oh-my-zsh] Can't update: not a git repository.`; Or you see VSCode says Git cannot be found, that's because Xcode command line tools is not included in the new major version upgrade of MacOS. You will need to re-install it again by running:
+> `xcode-select --install"`
