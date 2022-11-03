@@ -165,6 +165,12 @@ for (car in cars) {
 <div class="col-sm-6">
 <h4>CFInclude <div class="pull-right"><div class="label label-info">CF9+</div></div></h4>
 <pre>include "template.cfm";</pre>
+
+<h4>CFSavecontent <div class="pull-right"><div class="label label-info">CF9+ (not sure about CF8)</div></div></h4>
+<pre>savecontent variable="result" {
+	writeoutput("some content...");
+}
+</pre>
 </div>
 <div class="col-sm-6">
 <h4>Transactions <div class="pull-right"><div class="label label-info">CF9+</div></div></h4>

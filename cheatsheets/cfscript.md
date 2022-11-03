@@ -114,6 +114,13 @@ try {
 include "template.cfm";
 ```
 
+### CFSavecontent
+```
+savecontent variable="result" {
+	writeoutput("some content...");
+}
+```
+
 ### Continue Statement
 ```
 for (row in query) {
