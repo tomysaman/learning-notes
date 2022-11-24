@@ -97,7 +97,7 @@ Install these:
 - Remote desktop and VPN:
   - MS Remote Desktop
   - OpenVPN
-- Malwarebytes / Raycast (Alfred alternative) / TheUnarchiver / AltTab / AppCleaner (uninstaller) / [MediaInfo](https://github.com/sbarex/MediaInfo) / Mounty (ntfs drive write tool)
+- Malwarebytes / Raycast (Alfred alternative) / TheUnarchiver / AltTab / AppCleaner (uninstaller) / [MediaInfo](https://github.com/sbarex/MediaInfo) / Mounty (ntfs drive write tool - but currently not working with Ventura)
 - Stats (system info in menu bar) / Rectangle (windows management) / Mos (great mouse helper tool) / Monitor Control / Karabiner-Elements (keyboard keys mapping tool) (follow my github repo to import and use my setup)
 - Shottr (better screenshot tool) / Netspot (wifi analyser)
 - HiddenBar / xBar / Itsycal (quick calendar on menu bar) / FlyCut (clipboard tool) / Captin (caps lock indicator)
