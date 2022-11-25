@@ -55,6 +55,9 @@ Verify Homebrew installation by:
 Use [this page](https://formulae.brew.sh/) to check the formula name and the command to run installation
 
 Install these:
+- Mac Ports:
+  - [Mac Ports](https://www.macports.org/install.php) - Note that we would need to reinstall Mac Ports every times there is a major MacOS upgrade
+  - Putty
 - Web browsers:
   - Chrome
   - Firefox
