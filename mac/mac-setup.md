@@ -55,9 +55,6 @@ Verify Homebrew installation by:
 Use [this page](https://formulae.brew.sh/) to check the formula name and the command to run installation
 
 Install these:
-- Mac Ports:
-  - [Mac Ports](https://www.macports.org/install.php) - Note that we would need to reinstall Mac Ports every times there is a major MacOS upgrade
-  - Putty
 - Web browsers:
   - Chrome
   - Firefox
@@ -107,6 +104,16 @@ Install these:
 - SuperDuper (folder sync & drive backup tool) / Numi (smart calculator) / Kap (screen recording) / TRex (OCR tool) / Youtube to MP3 / FreeRuler
 - CamoStudio (use iphone as camera in Mac)
 - Steam / Epic Games Launcher / OpenEmu
+
+## Install apps with MacPorts
+
+Download & install [MacPorts](https://www.macports.org/install.php)
+- Note that we would need to reinstall/upgrade MacPorts every times there is a major MacOS upgrade
+- Update MacPorts `sudo port -v selfupdate`
+- Install app via MacPorts `sudo port install [app]`
+
+Install these:
+- Putty
 
 ## Install software from Mac App Store
 
@@ -254,7 +261,6 @@ Install these:
 
 
 # Install Zsh & Oh My Zsh
-
 
 Install Zsh
 > `brew install zsh`
