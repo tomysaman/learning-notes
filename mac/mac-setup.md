@@ -72,13 +72,13 @@ Install these:
 - Graphic design and photos:
   - qView (photo viewer)
   - ImageOptim (image optimisation tool)
-  - GIMP (Photoshop alternative app)
+  - GIMP
 - Video playback and conversion:
   - VLC
   - Handbrake (converting various video formats)
 - Web & text editors:
   - VS Code
-  - BBEdit (text editor)
+  - BBEdit
 - Database clients:
   - DBeaver (MSSQL client)
   - Sequel Ace (MySQL client)
@@ -86,24 +86,50 @@ Install these:
   - Sourcetree
   - GitHub Desktop
   - Docker
-  - Postman (API testing tool)
+  - Postman
   - Postman Agent (helper tool for Postman, such as capturing login session via browser so you can test API as you're already logged in)
   - CyberDuck (FTP client)
   - DevToys (a app provides many handy tools and functions for developers)
   - Keystore Explorer (for managing Java keystore)
 - Terminal related:
-  - iTerm (better terminal than Mac's built-in one)
+  - iTerm
   - Fig (great terminal tool that provides handy functions such as auto-complete)
 - Remote desktop and VPN:
   - MS Remote Desktop
   - OpenVPN
-- Malwarebytes / Raycast (Alfred alternative) / TheUnarchiver / AltTab / AppCleaner (uninstaller) / [MediaInfo](https://github.com/sbarex/MediaInfo) / Mounty (ntfs drive write tool - but currently not working with Ventura)
-- Stats (system info in menu bar) / Rectangle (windows management) / Mos (great mouse helper tool) / Monitor Control / Karabiner-Elements (keyboard keys mapping tool) (follow my github repo to import and use my setup)
-- Shottr (better screenshot tool) / Netspot (wifi analyser)
-- HiddenBar / xBar / Itsycal (quick calendar on menu bar) / FlyCut (clipboard tool) / Captin (caps lock indicator)
-- SuperDuper (folder sync & drive backup tool) / Numi (smart calculator) / Kap (screen recording) / TRex (OCR tool) / Youtube to MP3 / FreeRuler
-- CamoStudio (use iphone as camera in Mac)
-- Steam / Epic Games Launcher / OpenEmu
+- Utilities
+  - Malwarebytes
+  - Raycast (Alfred alternative)
+  - TheUnarchiver
+  - AltTab / AppCleaner (uninstaller)
+  - [MediaInfo](https://github.com/sbarex/MediaInfo)
+  - Mounty (ntfs drive write tool - but currently not working with Ventura)
+- Apps 1
+  - Stats (system info in menu bar)
+  - Rectangle (windows management)
+  - Mos (great mouse helper tool)
+  - Monitor Control
+  - Karabiner-Elements (keyboard keys mapping tool) (follow my github repo to import and use my setup)
+- Apps 2
+  - Shottr (better screenshot tool)
+  - Netspot (wifi analyser)
+- Apps 3
+  - HiddenBar
+  - xBar
+  - Itsycal (quick calendar on menu bar)
+  - FlyCut (clipboard tool)
+  - Captin (caps lock indicator)
+- Apps 4
+  - SuperDuper (folder sync & drive backup tool)
+  - Numi (smart calculator)
+  - Kap (screen recording)
+  - TRex (OCR tool)
+  - Youtube to MP3
+  - FreeRuler
+- Games
+  - Steam
+  - Epic Games Launcher
+  - OpenEmu
 
 ## Install apps with MacPorts
 
@@ -144,6 +170,8 @@ These apps are not in Homebrew nor in Mac App Store, download them from their we
   - Other hardware software...
 - Java 8
   - (version 1.8, download from java.com)
+- For MacPorts, install:
+  - [XQuartz](https://www.xquartz.org/)
 
 ## Install terminal commands with Homebrew
 
