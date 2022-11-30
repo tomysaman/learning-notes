@@ -101,9 +101,11 @@ Install these:
   - Malwarebytes
   - Raycast (Alfred alternative)
   - TheUnarchiver
-  - AltTab / AppCleaner (uninstaller)
+  - Deluge
+    - Import IP bloack list using this URL: https://github.com/Naunter/BT_BlockLists/raw/master/bt_blocklists.gz
+  - AppCleaner (uninstaller)
   - [MediaInfo](https://github.com/sbarex/MediaInfo)
-  - Mounty (ntfs drive write tool - but currently not working with Ventura)
+  - Mounty (free ntfs drive write tool - but currently not working with Ventura)
 - Apps 1
   - Stats (system info in menu bar)
   - Rectangle (windows management)
@@ -111,6 +113,7 @@ Install these:
   - Monitor Control
   - Karabiner-Elements (keyboard keys mapping tool) (follow my github repo to import and use my setup)
 - Apps 2
+  - AltTab
   - Shottr (better screenshot tool)
   - Netspot (wifi analyser)
 - Apps 3
