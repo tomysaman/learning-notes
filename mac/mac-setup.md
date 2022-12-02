@@ -106,6 +106,27 @@ Install these:
   - AppCleaner (uninstaller)
   - [MediaInfo](https://github.com/sbarex/MediaInfo)
   - Mounty (free ntfs drive write tool - but currently not working with Ventura)
+  - paragon-ntfs (paid ntfs drive write tool, works on the latest Mac hardware & software)
+    - After brew install, use Finder to open /opt/homebrew/Caskroom/paragon-ntfs/xx/FSInstaller.app to finish the installation
+    - Follow the prompt to change the Mac's system protection settings
+      - Settings -> Privacy & Security -> click on Enable System Extensions button -> click Shut Down
+      - Mac will shutdown, then turn it back on while holding the Power button to start in the recovery mode
+      - Select Options -> your username -> type password to login
+      - Launch the Startup Security Utility from the Utilities menu bar
+      - Select Limited protection option, and tick the checkbox to enable user managed kernel extensions
+      - Restart again
+    - Follow the prompt to enable its system extension
+      - Go to Settings -> Privacy & Security -> the "Enable System Extensions" button will now become "Allow" for the Paragon NTFS app
+      - Click allow button and restart Mac again
+    - Follow the prompt to give the app full disk access
+      - Go to Settings -> Privacy & Security -> Full Disk Access -> toggle it ON for "com.paragon-software"
+    - Go to Settings -> General -> Login Items -> Set the below items to be allowed in the background
+      - kextload
+      - NTFS for Mac.app
+      - Paragon NTFS for Mac
+    - Hit the "retry" button at the end of the guided setup, the app should start again and will prompt you for activation
+      - Sign in with janicehuangau@yahoo.com.au / 0A..m0
+      - If the license already been applied on another machine, login into Paragon website and revoke the product license so it can use again
 - Apps 1
   - Stats (system info in menu bar)
   - Rectangle (windows management)
