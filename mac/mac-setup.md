@@ -133,6 +133,7 @@ Install these:
   - Mos (great mouse helper tool)
   - Monitor Control
   - Karabiner-Elements (keyboard keys mapping tool) (follow my github repo to import and use my setup)
+  - VIA (custom keyboard configuration tool)
 - Apps 2
   - AltTab
   - Shottr (better screenshot tool)
