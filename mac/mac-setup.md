@@ -404,7 +404,7 @@ Availabe themes are
   - obraun
   - rkj-repos
 - [External themes](https://github.com/ohmyzsh/ohmyzsh/wiki/External-themes) - download and install manually
-  - [Powerlevel10k](https://github.com/romkatv/powerlevel10k) - the best one
+  - [Powerlevel10k](https://github.com/romkatv/powerlevel10k) - I like this one the best
     - Follow the guide to install & configure
     - To customise, edit `~/.p10k.zsh`
     - To find out the colors to use, run below to show the color number codes
@@ -536,7 +536,7 @@ TBC
 
 ### Bitbucket
 
-If company uses Bitbucket, consider using SSH over HTTPS when communicate with BitBucket Git. Login into Bitbucket and follow [this page](https://support.atlassian.com/bitbucket-cloud/docs/set-up-an-ssh-key/) to setup SSH authentication.
+If you use Bitbucket, consider using SSH over HTTPS when communicate with BitBucket Git. Follow below to setup SSH authentication ([reference](https://support.atlassian.com/bitbucket-cloud/docs/set-up-an-ssh-key/)).
 
 1. Copy the public key content
   > `pbcopy < ~/.ssh/id_rsa.pub`
@@ -551,8 +551,8 @@ If company uses Bitbucket, consider using SSH over HTTPS when communicate with B
 - Go to Preferences -> Account, edit your account
   - Set auth type = OAuth, protocal = SSH
   - Ensure your username and SSH key values are present
-  - Check out repo using SSH style likes: git@bitbucket.org:centernet/ping-prime.git
-  - Note: if you want you can still check out Git with HTTPS style likes: https://tomysaman21@bitbucket.org/centernet/earthquake.git
+  - Check out repo using SSH style, such as: git@bitbucket.org:your_org_name/your_repo_name.git
+  - Note: if you want you can still check out Git with HTTPS style likes: https://your_username@bitbucket.org/your_org_name/your_repo_name.git
 
 # Local Dev
 
@@ -566,7 +566,7 @@ At the time of writing Jan 2022, there is some incompatibility issue between Jav
 
 ### CommandBox
 
-CommandBox on Homebrew is bundled with OpenJDK Java, which is not compatible with M1 chip. So download and install CommandBox manually from [CommandBox homepage]() (get the one with JRE). Extract the file and move the **box** binary to your `/sdfsafasd` folder so you can run it anywhere in terminal.
+CommandBox on Homebrew is bundled with OpenJDK Java, which is not compatible with M1 chip. So download and install CommandBox manually from [CommandBox homepage]() (get the one with JRE). Extract the file and move the **box** binary to your `/usr/local/bin` folder so you can run it anywhere in terminal.
 
 ### Java
 
@@ -574,7 +574,11 @@ Download and install Sun/Oracle's [Java 8]() (version 1.8) and install it
 
 ### jenv
 
+TBC
+
 # Certificates
+
+TBC
 
 # Dev tools
 
