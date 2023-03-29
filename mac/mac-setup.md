@@ -220,6 +220,7 @@ Install these:
   - `ps aux | fzf` to filter & search processes
 - ripgrep (`grep` alternative, search file content using regexp)
   - `rg <search term in regexp>` to find files with content matching the regexp
+  - use `-i` switch to not be case-sensitive search
 - autojump (smart directory navigation)
   - See the message after brew install to add the required command into `~/.zshrc` to finish the setup
   - `j <directoryName>` to jump to that directory without the need to type out its path
