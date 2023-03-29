@@ -369,7 +369,7 @@ See [this page](https://github.com/unixorn/awesome-zsh-plugins) for the full lis
   - `psgrep` - find a process using regexp
 - sudo: press `Esc` twice to prefix your command with `sudo`
 - themes: change zsh theme - `theme <theme>`, `lstheme` to view install themes, `theme` to change to a random theme
-- transfer: using transfer.sh to update and share files
+- transfer: using transfer.sh website to share files
   - `transfer <file_or_dir> -ca` to upload
     - it will automatically compress and archive the folder
     - if you don't need encryption, remove the -ca args
@@ -523,6 +523,7 @@ My passphrase is usually: t.1..16
 # Karabiner
 
 - Load my custom rules
+  - Get it from [here](https://github.com/tomysaman/karabiner_complex_modifications)
   - Complex modifications rules json files are loaded from `~/.config/karabiner/assets/complex_modifications`
 - My json file contains rule that swap CMD and OPTION key
   - If this rule is enabled, ensure there is no custom mapping in the MacOS keyboard setting (Karabiner keyboard name is "Karabiner DriveKit VirtualHIDKeyboard")
