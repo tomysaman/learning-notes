@@ -82,18 +82,18 @@ Install these:
 - Database clients:
   - DBeaver (MSSQL client)
   - Sequel Ace (MySQL client)
-- Web development tools:
+- Dev tools #1:
   - Sourcetree
   - GitHub Desktop
   - Docker
   - Postman
   - Postman Agent (helper tool for Postman, such as capturing login session via browser so you can test API as you're already logged in)
-  - CyberDuck (FTP client)
-  - DevToys (a app provides many handy tools and functions for developers)
-  - Keystore Explorer (for managing Java keystore)
-- Terminal related:
+  - Firezilla (it is not in Homebrew registry due to ppl saying it has adware in it and MacOS blocks it, but it does seems being ok for the latest version now)
+- Dev tools #2:
   - iTerm
   - Fig (great terminal tool that provides handy functions such as auto-complete)
+  - DevToys (a app provides many handy tools and functions for developers)
+  - Keystore Explorer (for managing Java keystore)
 - Remote desktop and VPN:
   - MS Remote Desktop
   - OpenVPN
