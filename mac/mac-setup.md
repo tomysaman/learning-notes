@@ -136,6 +136,7 @@ Install these:
   - VIA (custom keyboard configuration tool)
 - Apps 2
   - AltTab
+  - Kap (screen recording tool)
   - Shottr (better screenshot tool)
   - Netspot (wifi analyser)
 - Apps 3
