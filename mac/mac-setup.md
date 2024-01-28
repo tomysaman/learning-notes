@@ -91,6 +91,7 @@ Install these:
   - Firezilla (it is not in Homebrew registry due to ppl saying it has adware in it and MacOS blocks it, but it does seems being ok for the latest version now)
 - Dev tools #2:
   - iTerm
+  - Termius
   - Fig (great terminal tool that provides handy functions such as auto-complete)
   - DevToys (a app provides many handy tools and functions for developers)
   - Keystore Explorer (for managing Java keystore)
