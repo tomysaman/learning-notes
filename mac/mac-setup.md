@@ -35,6 +35,7 @@ Then relaunch Finder app (hold OPTION key while right click finder icon in the t
 
 Install XCode tool (it is required by Homebrew)
 > `xcode-select --install`
+A download UI dialog will open fater executing that command. Confirm and start the download.
 
 ## Install Homebew
 
