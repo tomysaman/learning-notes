@@ -91,7 +91,7 @@ Install these:
   - Postman Agent (helper tool for Postman, such as capturing login session via browser so you can test API as you're already logged in)
   - Firezilla (it is not in Homebrew registry due to ppl saying it has adware in it and MacOS blocks it, but it does seems being ok for the latest version now)
 - Dev tools #2:
-  - iTerm
+  - iTerm2
   - Termius
   - Fig (great terminal tool that provides handy functions such as auto-complete)
   - DevToys (a app provides many handy tools and functions for developers)
