@@ -152,7 +152,7 @@ Install these:
   - Numi (smart calculator)
   - Kap (screen recording)
   - TRex (OCR tool)
-  - Youtube to MP3
+  - Youtube to MP3 (MediaHuam youtube-to-mp3)
   - FreeRuler
 - Games
   - Steam
