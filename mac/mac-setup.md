@@ -100,7 +100,7 @@ Install these:
   - MS Remote Desktop
   - OpenVPN
 - Utilities
-  - Malwarebytes
+  - Malwarebytes or AVG AntiVirus
   - Raycast (Alfred alternative)
   - TheUnarchiver
   - Deluge
