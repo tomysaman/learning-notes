@@ -89,7 +89,7 @@ Install these:
   - Docker
   - Postman
   - Postman Agent (helper tool for Postman, such as capturing login session via browser so you can test API as you're already logged in)
-  - Firezilla (it is not in Homebrew registry due to ppl saying it has adware in it and MacOS blocks it, but it does seems being ok for the latest version now)
+  - Firezilla (it is not in Homebrew registry due to ppl saying it has malware in it and MacOS blocks it, but it does seems being working ok for the latest version now)
 - Dev tools #2:
   - iTerm2
   - Termius
@@ -137,6 +137,7 @@ Install these:
   - Karabiner-Elements (keyboard keys mapping tool) (follow my github repo to import and use my setup)
   - VIA (custom keyboard configuration tool)
 - Apps 2
+  - SuperDuper (folder sync & drive backup tool)
   - AltTab
   - Kap (screen recording tool)
   - Shottr (better screenshot tool)
@@ -148,11 +149,10 @@ Install these:
   - FlyCut (clipboard tool)
   - Captin (caps lock indicator)
 - Apps 4
-  - SuperDuper (folder sync & drive backup tool)
   - Numi (smart calculator)
   - Kap (screen recording)
   - TRex (OCR tool)
-  - Youtube to MP3
+  - Youtube to MP3 (MediaHuam youtube-to-mp3)
   - FreeRuler
 - Games
   - Steam
