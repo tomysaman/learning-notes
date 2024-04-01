@@ -7,7 +7,7 @@
 
 > `Hyper = Ctrl + Opt + CMD + Shift`
 
-- Mission Control
+- Desktop & Dock -> Shortcuts
   - Set Mission Control to use `Ctrl + Up` and bind it to `Mouse Button 4` (back button)
   - Set Application Window to use `Ctrl + Down` and bind it to `Mouse Button 5` (forward button)
   - Set ShowDesktop to use `Hyper + Down`
