@@ -290,6 +290,11 @@ Install these:
   - `pass insert <name>` to create a pw or `pass generate <name>` to create a pw with a randomly generated password
   - `pass edit <name>` to change a pw, `pass rm <name>` to delete a pw
 - `pinentry-mac` (gpg utility used by some of the apps I installed)
+- `mailsy` (create temporary email address for you to use)
+  - `mailsy g` to create a new email account
+  - `mailsy m` to fetch the emails
+  - `mailsy me` to show the account details
+  - `mailsy d` to delete account
 - `task` (TaskWarrior for task management)
   - [docs](https://taskwarrior.org/docs/)
   - `task add <name>`, `task delete <name>`, `task done <number>`, `task next`
@@ -408,7 +413,9 @@ Availabe themes are
   - rkj-repos
 - [External themes](https://github.com/ohmyzsh/ohmyzsh/wiki/External-themes) - download and install manually
   - [Powerlevel10k](https://github.com/romkatv/powerlevel10k) - I like this one the best
-    - Follow the guide to install & configure
+    - To install
+      - > `git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k`
+      - Restart zsh with `exec zsh` and follow the installation prompt
     - To customise, edit `~/.p10k.zsh`
     - To find out the colors to use, run below to show the color number codes
        - > `for i in {0..255}; do print -Pn "%K{$i}  %k%F{$i}${(l:3::0:)i}%f " ${${(M)$((i%6)):#3}:+$'\n'}; done`
