@@ -289,12 +289,14 @@ Install these:
   - `pass -c <name>` to copy the pw into clipboard
   - `pass insert <name>` to create a pw or `pass generate <name>` to create a pw with a randomly generated password
   - `pass edit <name>` to change a pw, `pass rm <name>` to delete a pw
-- `pinentry-mac` (gpg utility used by some of the apps I installed)
+- `gnupg` (for encryption/decryption)
+- `pinentry-mac` (gpg utility used by some of the apps in this list)
 - `mailsy` (create temporary email address for you to use)
   - `mailsy g` to create a new email account
   - `mailsy m` to fetch the emails
   - `mailsy me` to show the account details
   - `mailsy d` to delete account
+- `nmap` (port scanning utility)
 - `task` (TaskWarrior for task management)
   - [docs](https://taskwarrior.org/docs/)
   - `task add <name>`, `task delete <name>`, `task done <number>`, `task next`
@@ -320,6 +322,8 @@ Install these:
   - `node`
 - For Python:
   - `python`
+- Others:
+  - `chroma` (utility used by some of the apps in this list)
 
 
 # Install Zsh & Oh My Zsh
@@ -404,7 +408,7 @@ Zsh/Oh-my-zsh and their plugins comes with many alias, some useful are:
 
 Update `~/.zshrc` file and set the theme:
 
-> `ZSH_THEME="powerlevel10k"`
+> `ZSH_THEME="powerlevel10k/powerlevel10k"`
 
 Availabe themes are
 - [Builtin themes](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes) - to use them simply set it in the ~/.zshrc file
