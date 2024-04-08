@@ -28,6 +28,16 @@
 
 Then relaunch Finder app (hold OPTION key while right click finder icon in the task bar, then choose relaunch)
 
+## Adjust menu bar icon spacing to fit more icons
+
+The Macbook camera notch is very annoying, you can only use about 40% of screen width for you menu bar icons (the icons will never go pass the camera notch). We can adjust below settings to use a more compact spacing for menu icons to fit more icons
+
+> defaults -currentHost write -globalDomain NSStatusItemSpacing -int 5
+> 
+> defaults -currentHost write -globalDomain NSStatusItemSelectionPadding -int 6
+
+To revert, use `delete` instead of `write`. To check use `read` instead of `write`. A compact setting is likely to be 6 and 5, and a "normal" setting is like to be 12 and 8.
+
 
 # Install Software
 
