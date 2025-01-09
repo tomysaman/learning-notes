@@ -96,7 +96,7 @@ Install these:
 - Dev tools #1:
   - Sourcetree
   - GitHub Desktop
-  - Docker
+  - Docker or OrbStack
   - Postman
   - Postman Agent (helper tool for Postman, such as capturing login session via browser so you can test API as you're already logged in)
   - Firezilla (it is not in Homebrew registry due to ppl saying it has malware in it and MacOS blocks it, but it does seems being working ok for the latest version now)
@@ -108,7 +108,7 @@ Install these:
   - Keystore Explorer (for managing Java keystore)
 - Remote desktop and VPN:
   - MS Remote Desktop
-  - OpenVPN
+  - Deskflow
 - Utilities
   - Malwarebytes or AVG AntiVirus
   - Raycast (Alfred alternative)
