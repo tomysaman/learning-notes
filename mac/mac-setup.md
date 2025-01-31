@@ -464,8 +464,9 @@ The `pass` command need to be initialised using a key we created above. Follow t
 Create a oh-my-zsh custom file (can be any name, such as "aliases.zsh" at the following folder:
 > `~/.oh-my-zsh/custom/`
 
-- Create `l` to use **eza** as:
+- Create `l` and 'ls' to use **eza** as:
   - > `alias l='eza --header --long --all --grid --classify --time-style=long-iso --icons'`
+  - > `alias la='eza --header --long --all --classify --time-style=long-iso --icons'`
   - A helpful switch is `--tree` which lists the content of children dirs, and you use it with the alias likes `l --tree`
 - Create `fd` to use **fd** and don't take .gitignore file into consideration:
   - > `alias fd='fd --no-ignore'`
