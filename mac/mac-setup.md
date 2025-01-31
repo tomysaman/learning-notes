@@ -105,7 +105,7 @@ Install these:
 - Dev tools #2:
   - iTerm2
   - Termius
-  - AWS CodeWhisperer for Command Line (previously known as Fig - a great terminal tool that provides handy functions such as auto-complete)
+  - Amazon Q for Command Line (previously known as Fig - a great terminal tool that provides handy functions such as auto-complete)
   - DevToys (a app provides many handy tools and functions for developers)
   - Keystore Explorer (for managing Java keystore)
 - Remote desktop and VPN:
