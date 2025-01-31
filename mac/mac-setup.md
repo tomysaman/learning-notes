@@ -246,7 +246,7 @@ Install these:
 - bat (better version of `cat` with syntax highlighting)
   - `bat <file>` to show the file's content
 - gdu (see disk & directory space usage info, similar to `ncdu`)
-  - `gdu` to activate
+  - `gdu-go` to activate
   - Use `left`/`right` to navigate between child and parent, use `d` key to delete item
 - icdiff (diff tool)
   - `icdiff <file1> <file2>` to compare the two files
