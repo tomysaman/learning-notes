@@ -470,6 +470,8 @@ Create a oh-my-zsh custom file (can be any name, such as "aliases.zsh" at the fo
   - A helpful switch is `--tree` which lists the content of children dirs, and you use it with the alias likes `l --tree`
 - Create `fd` to use **fd** and don't take .gitignore file into consideration:
   - > `alias fd='fd --no-ignore'`
+- Overwrite `find` to use **fd** and don't take .gitignore file into consideration, then pipe it to fzf:
+  - > `alias find='fd --no-ignore | fzf'`
 - Create `rg` to use **rg** and don't take .gitignore file into consideration:
   - > `alias rg='rg --no-ignore'`
 
