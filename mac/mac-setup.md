@@ -183,9 +183,10 @@ Install these:
 
 - Communication:
   - Line
-    - or use the web version (much limited functionality and is only available as a [Chrome extension] (https://chromewebstore.google.com/detail/line/ophjlpahpchlmihnnnihgmmeilfjmjjc?hl=en))
+    - or use the web version (much limited functionality and is only available as a [Chrome extension](https://chromewebstore.google.com/detail/line/ophjlpahpchlmihnnnihgmmeilfjmjjc?hl=en))
 - Music:
   - MyTuner Radio (listen to live radio worldwide)
+    - or use [Radio Garden](https://radio.garden/listen/smooth-fm-95-3/wq6970BS)
 - Apps (group 2):
   - Dropover (file/image/text holder for various quick tasks)
   - Later (save your current session such as opened apps and windows, and easily restore them later when you need to)
@@ -193,7 +194,7 @@ Install these:
   - Amphetamine (makes monitor screen & mac machine always on)
     - or install `caffeine` using homebrew
   - Hand Mirror (quickly show your camera view)
-    - or you can just use raycast's open camera command
+    - or you can just use `raycast`'s `open camera` command
 
 ## Install other software
 
