@@ -433,15 +433,6 @@ Availabe themes are
     - To customise, edit `~/.p10k.zsh`
     - To find out the colors to use, run below to show the color number codes
        - > `for i in {0..255}; do print -Pn "%K{$i}  %k%F{$i}${(l:3::0:)i}%f " ${${(M)$((i%6)):#3}:+$'\n'}; done`
-    - Update the colors for these settings to customise the elements to my liking:
-      - POWERLEVEL9K_OS_ICON
-      - POWERLEVEL9K_DIR
-      - POWERLEVEL9K_VCS
-      - POWERLEVEL9K_STATUS_OK
-      - POWERLEVEL9K_STATUS_OK_PIPE
-      - POWERLEVEL9K_STATUS_ERROR
-      - POWERLEVEL9K_STATUS_ERROR_PIPE_FOREGROUND
-      - POWERLEVEL9K_TIME
 
 
 ### Create a GPG key
