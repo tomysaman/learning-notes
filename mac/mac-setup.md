@@ -110,7 +110,7 @@ Install these:
   - Keystore Explorer (for managing Java keystore)
 - Remote desktop and VPN:
   - MS Remote Desktop
-  - Deskflow
+  - [Deskflow](https://github.com/deskflow/deskflow)
 - Utilities
   - Malwarebytes or AVG AntiVirus
   - Raycast (Alfred alternative)
