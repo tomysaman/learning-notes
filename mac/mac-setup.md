@@ -183,6 +183,7 @@ Install these:
 
 - Communication:
   - Line
+    - or use the web version (much limited functionality and is only available as a [Chrome extension] (https://chromewebstore.google.com/detail/line/ophjlpahpchlmihnnnihgmmeilfjmjjc?hl=en))
 - Music:
   - MyTuner Radio (listen to live radio worldwide)
 - Apps (group 2):
@@ -190,7 +191,9 @@ Install these:
   - Later (save your current session such as opened apps and windows, and easily restore them later when you need to)
 - Apps (group 3):
   - Amphetamine (makes monitor screen & mac machine always on)
-  - Hand Mirror (quickly display what your camera ss)
+    - or install `caffeine` using homebrew
+  - Hand Mirror (quickly show your camera view)
+    - or you can just use raycast's open camera command
 
 ## Install other software
 
