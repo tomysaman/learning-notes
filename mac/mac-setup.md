@@ -38,6 +38,8 @@ The Macbook camera notch is very annoying, you can only use about 40% of screen 
 
 To revert, use `delete` instead of `write`. To check use `read` instead of `write`. A compact setting is likely to be 6 and 5, and a "normal" setting is like to be 12 and 8.
 
+You also need to restart MacOS for this to take effect.
+
 
 # Install Software
 
