@@ -218,9 +218,9 @@ Use Homebrew to install these commands:
 
 Install these:
 - eza (`ls` alternative)
-  - `l` or `la` to list files
+  - Note: see the alias section further down, after setting up custom alias you can use eza as below:
+  - `l` or `ls` to list files
   - `l --tree` to list files in tree structure
-  - See the alias section below on how to setup the aliases above
 - tldr (simplified `man` page)
   - `tldr <command>` to list a few of examples on how to use that command
 - mcfly (a better command history search tool)
@@ -464,9 +464,9 @@ The `pass` command need to be initialised using a key we created above. Follow t
 Create a oh-my-zsh custom file (can be any name, such as "aliases.zsh" at the following folder:
 > `~/.oh-my-zsh/custom/`
 
-- Create `l` and 'ls' to use **eza** as:
-  - > `alias l='eza --header --long --all --grid --classify --time-style=long-iso --icons'`
-  - > `alias la='eza --header --long --all --classify --time-style=long-iso --icons'`
+- Create `l` and overwrite 'ls' to use **eza** as:
+  - > `alias l='eza --all --grid --icons'`
+  - > `alias ls='eza --header --long --all --classify --time-style=long-iso --icons'`
   - A helpful switch is `--tree` which lists the content of children dirs, and you use it with the alias likes `l --tree`
 - Create `fd` to use **fd** and don't take .gitignore file into consideration:
   - > `alias fd='fd --no-ignore'`
