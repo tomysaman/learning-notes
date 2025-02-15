@@ -480,10 +480,10 @@ Create a oh-my-zsh custom file (can be any name, such as "aliases.zsh" at the fo
     - Tick "Use built-in Powerline glyphs
 installing it
   - Settings -> Profiles -> Window
-    - Use 10% transparency
-    - Enable "Blur" at 10%
+    - Use 5% transparency
+    - Enable "Blur" and set to 10%
   - Settings -> Profiles -> Keys
-    - Set Left Option key as Esc+ (so you can do Opt+F & Opt+B instead of Esc+F & Esc+B)
+    - Set Left Option key as Esc+ (so you can do use Option normally, such Opt+F & Opt+B to jump forward/back word)
 
 - Useful cursor movement shortcuts
   - `Ctrl + A` = move to the beginning
