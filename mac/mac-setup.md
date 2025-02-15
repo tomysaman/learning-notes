@@ -475,14 +475,14 @@ Create a oh-my-zsh custom file (can be any name, such as "aliases.zsh" at the fo
 # iTerm2
 
 - Setting changes
-  - Preferences -> Profiles -> Text
+  - Settings -> Profiles -> Text
     - Use "Underline" as cursor, and tick "Blinking cursor"
     - Tick "Use built-in Powerline glyphs
-    - Pick a better font, such as "JetBrains Mono". See the **Fonts** section below on downloading and installing it
-  - Preferences -> Profiles -> Window
+installing it
+  - Settings -> Profiles -> Window
     - Use 10% transparency
     - Enable "Blur" at 10%
-  - Preferences -> Profiles -> Keys
+  - Settings -> Profiles -> Keys
     - Set Left Option key as Esc+ (so you can do Opt+F & Opt+B instead of Esc+F & Esc+B)
 
 - Useful cursor movement shortcuts
