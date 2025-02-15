@@ -170,15 +170,15 @@ Install these:
   - Epic Games Launcher
   - OpenEmu
 
-## -Install apps with MacPorts-
+## ~~Install apps with MacPorts~~
 
--Download & install [MacPorts](https://www.macports.org/install.php)-
-- -Note that we would need to reinstall/upgrade MacPorts every times there is a major MacOS upgrade-
-- -Update MacPorts `sudo port -v selfupdate`-
-- -Install app via MacPorts `sudo port install [app]`-
+~~Download & install [MacPorts](https://www.macports.org/install.php)~~
+- ~~Note that we would need to reinstall/upgrade MacPorts every times there is a major MacOS upgrade~~
+- ~~Update MacPorts `sudo port -v selfupdate`~~
+- ~~Install app via MacPorts `sudo port install [app]`~~
 
-Install these:
-- Putty
+~~Install these:~~
+- ~~Putty~~
 
 ## Install software from Mac App Store
 
