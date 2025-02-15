@@ -161,7 +161,6 @@ Install these:
   - Captin (caps lock indicator)
 - Apps 4
   - Numi (smart calculator)
-  - Kap (screen recording)
   - TRex (OCR tool)
   - Youtube to MP3 (MediaHuam youtube-to-mp3)
   - FreeRuler
