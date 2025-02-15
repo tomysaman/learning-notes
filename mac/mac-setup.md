@@ -212,8 +212,8 @@ These apps are not in Homebrew nor in Mac App Store, download them from their we
   - Other hardware software...
 - Java 8
   - (version 1.8, download from java.com)
-- For MacPorts, install:
-  - [XQuartz](https://www.xquartz.org/)
+- ~~For MacPorts, install:~~
+  - ~~[XQuartz](https://www.xquartz.org/)~~
 
 ## Install terminal commands with Homebrew
 
