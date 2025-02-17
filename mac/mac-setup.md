@@ -40,6 +40,11 @@ To revert, use `delete` instead of `write`. To check use `read` instead of `writ
 
 You also need to restart MacOS for this to take effect.
 
+## Change screenshot image format from png to jpg
+
+JPG is slightly lower quality (but not-noticable really), but is smaller in file size
+
+> defaults write com.apple.screencapture type jpg
 
 # Install Software
 
