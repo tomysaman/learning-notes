@@ -155,6 +155,7 @@ Install these:
 - Apps 2
   - SuperDuper (folder sync & drive backup tool)
   - AltTab
+  - [zNotch](https://github.com/zkondor/znotch?tab=readme-ov-file)
   - Kap (screen recording tool)
   - Shottr (better screenshot tool)
   - Netspot (wifi analyser)
