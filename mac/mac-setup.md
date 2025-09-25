@@ -152,6 +152,7 @@ Install these:
   - Mos (great mouse helper tool)
   - Monitor Control
   - Karabiner-Elements (keyboard keys mapping tool) (follow my github repo to import and use my setup)
+  - Slimhud (because I want the old big volume HUD back)
 - Apps 2
   - SuperDuper (folder sync & drive backup tool)
   - AltTab
