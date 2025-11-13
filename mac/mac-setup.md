@@ -324,6 +324,8 @@ Install these:
 - `timewarrior` (time tracking)
   - [docs](https://timewarrior.net/docs/)
   - `timew start <task>`, `timew stop`, `timew continue`, `timew summary`
+- doxx (read Word file in terminal)
+- [xleak](https://github.com/bgreenwell/xleak) (view Excel file in terminal)
 - speedtest-cli (run speed test in your terminal)
   - `speedtest-cli` to start the test
 - youtube-dl (download Youtube video as video or music file)
