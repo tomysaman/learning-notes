@@ -119,7 +119,7 @@ Install these:
 - Utilities
   - Malwarebytes or AVG AntiVirus
   - Raycast (Alfred alternative)
-  - TheUnarchiver
+  - Keka (archive/unarchive tool)
   - Deluge
     - Import IP bloack list using this URL: https://github.com/Naunter/BT_BlockLists/raw/master/bt_blocklists.gz
   - AppCleaner (uninstaller)
