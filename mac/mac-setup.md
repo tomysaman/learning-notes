@@ -153,6 +153,7 @@ Install these:
   - Monitor Control
   - Karabiner-Elements (keyboard keys mapping tool) (follow my github repo to import and use my setup)
   - Slimhud (because I want the old big volume HUD back)
+  - Fluor (choose how F1-F12 behave per application, either as default/media keys or as function keys)
 - Apps 2
   - SuperDuper (folder sync & drive backup tool)
   - AltTab
