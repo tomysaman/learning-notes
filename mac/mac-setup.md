@@ -149,7 +149,8 @@ Install these:
 - Apps 1
   - Stats (system info in menu bar)
   - Rectangle (windows management)
-  - Mos (great mouse helper tool)
+  - Mos (mouse helper tool, main use case is let you do natural scrolling with trackpad but reverse it when using a mouse)
+  - If Mos does not work, Scroll-reverser
   - Monitor Control
   - Karabiner-Elements (keyboard keys mapping tool) (follow my github repo to import and use my setup)
   - Slimhud (because I want the old big volume HUD back)
