@@ -471,8 +471,8 @@ Create a oh-my-zsh custom file (can be any name, such as "aliases.zsh" at the fo
 > `~/.oh-my-zsh/custom/`
 
 - Create `l` and overwrite 'ls' to use **eza** as:
-  - > `alias l='eza --all --grid --icons'`
-  - > `alias ls='eza --header --long --all --classify --time-style=long-iso --icons'`
+  - > `alias l='eza --all --grid --icons --group-directories-first'`
+  - > `alias ls='eza --header --long --all --classify --time-style=long-iso --icons --group-directories-first'`
   - A helpful switch is `--tree` which lists the content of children dirs, and you use it with the alias likes `l --tree`
 - Create `fd` to use **fd** and don't take .gitignore file into consideration:
   - > `alias fd='fd --no-ignore'`
