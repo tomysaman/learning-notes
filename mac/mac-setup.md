@@ -263,6 +263,7 @@ Install these:
   - Use `left`/`right` to navigate between child and parent, use `d` key to delete item
 - icdiff (diff tool)
   - `icdiff <file1> <file2>` to compare the two files
+- cloc (count lines of codes)
 - lnav (log file viewer) 
   - [docs](https://docs.lnav.org/en/latest/hotkeys.html)
   - `lnav <file>` or `lnav <directory>` to activate
