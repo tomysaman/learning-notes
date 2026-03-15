@@ -236,7 +236,7 @@ Install these:
   - `l --tree` to list files in tree structure
 - tldr (simplified `man` page)
   - `tldr <command>` to list a few of examples on how to use that command
-- mcfly (a better command history search tool)
+- fzfy (a better command history search tool)
   - Add `eval "$(mcfly init zsh)"` to `~/.zshrc` to complete the setup after installing mcfly
   - Use `ctrl + r` to activate
 - fd (`find` alternative, search filename using regexp)
@@ -247,6 +247,11 @@ Install these:
 - ripgrep (`grep` alternative, search file content using regexp)
   - `rg <search term in regexp>` to find files with content matching the regexp
   - use `-i` switch to not be case-sensitive search
+- zoxide (smart directory navigation)
+  - Add `eval "$(zoxide init zsh)"` to .zshrc after installation
+  - `j <directoryName>` to jump to that directory
+  - `z` to return to user home directory
+  - `zi` to use fzf to filter and go to that directory
 - autojump (smart directory navigation)
   - See the message after brew install to add the required command into `~/.zshrc` to finish the setup
   - `j <directoryName>` to jump to that directory without the need to type out its path
