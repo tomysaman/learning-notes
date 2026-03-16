@@ -454,6 +454,7 @@ Availabe themes are
     - To customise, edit `~/.p10k.zsh`
     - To find out the colors to use, run below to show the color number codes
        - > `for i in {0..255}; do print -Pn "%K{$i}  %k%F{$i}${(l:3::0:)i}%f " ${${(M)$((i%6)):#3}:+$'\n'}; done`
+       - Or look at [this](powerlevel10k_colors.png)
 
 
 ### Create a GPG key
