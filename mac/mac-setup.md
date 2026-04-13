@@ -157,7 +157,7 @@ Install these:
   - Fluor (choose how F1-F12 behave per application, either as default/media keys or as function keys)
 - Apps 2
   - SuperDuper (folder sync & drive backup tool)
-  - AltTab
+  - Dockdoor (windows style app-switching as well as window preview from dock icons)
   - [zNotch](https://github.com/zkondor/znotch?tab=readme-ov-file)
   - Kap (screen recording tool)
   - Shottr (better screenshot tool)
