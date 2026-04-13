@@ -150,7 +150,7 @@ Install these:
   - Stats (system info in menu bar)
   - Rectangle (windows management)
   - Mos (mouse helper tool, main use case is let you do natural scrolling with trackpad but reverse it when using a mouse)
-    - If Mos does not work, use LinearMouse or Scroll-reverser
+    - Alternative: LinearMouse or Scroll-reverser
   - Monitor Control
   - Karabiner-Elements (keyboard keys mapping tool) (follow my github repo to import and use my setup)
   - Slimhud (because I want the old big volume HUD back)
@@ -161,6 +161,7 @@ Install these:
   - [zNotch](https://github.com/zkondor/znotch?tab=readme-ov-file)
   - Kap (screen recording tool)
   - Shottr (better screenshot tool)
+    - Use right mouse button to drag/move image in editor. More tips see https://shottr.cc/ website
   - Netspot (wifi analyser)
 - Apps 3
   - HiddenBar
