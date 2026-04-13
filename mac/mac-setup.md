@@ -169,7 +169,7 @@ Install these:
   - Itsycal (quick calendar on menu bar)
   - FlyCut (clipboard tool)
   - Captin (caps lock indicator)
-  - [flux-markdown](https://github.com/xykong/flux-markdown) (ability to render markdown file in quickview)
+  - [flux-markdown](https://github.com/xykong/flux-markdown) (ability to render markdown file in quicklook)
 - Apps 4
   - Numi (smart calculator)
   - TRex (OCR tool)
