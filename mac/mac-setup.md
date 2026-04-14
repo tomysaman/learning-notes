@@ -153,12 +153,10 @@ Install these:
     - Alternative: LinearMouse or Scroll-reverser
   - Monitor Control
   - Karabiner-Elements (keyboard keys mapping tool) (follow my github repo to import and use my setup)
-  - Slimhud (because I want the old big volume HUD back)
-  - Fluor (choose how F1-F12 behave per application, either as default/media keys or as function keys)
 - Apps 2
   - SuperDuper (folder sync & drive backup tool)
   - Dockdoor (windows style app-switching as well as window preview from dock icons)
-  - [zNotch](https://github.com/zkondor/znotch?tab=readme-ov-file)
+  - [BoringNotch](https://github.com/TheBoredTeam/boring.notch/) (dynamic island for your notch)
   - Kap (screen recording tool)
   - Shottr (better screenshot tool)
     - Use right mouse button to drag/move image in editor. More tips see https://shottr.cc/ website
@@ -170,6 +168,9 @@ Install these:
   - FlyCut (clipboard tool)
   - Captin (caps lock indicator)
   - [flux-markdown](https://github.com/xykong/flux-markdown) (ability to render markdown file in quicklook)
+  - [zNotch](https://github.com/zkondor/znotch?tab=readme-ov-file) (hide notch)
+  - Slimhud (because I want the old big volume HUD back)
+  - Fluor (choose how F1-F12 behave per application, either as default/media keys or as function keys)
 - Apps 4
   - Numi (smart calculator)
   - TRex (OCR tool)
