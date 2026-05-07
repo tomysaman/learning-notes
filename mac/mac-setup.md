@@ -8,8 +8,9 @@
 > `Hyper = Ctrl + Opt + CMD + Shift`
 
 - Desktop & Dock -> Shortcuts
-  - Set Mission Control to use `Ctrl + Up` and bind it to `Mouse Button 4` (back button)
-  - Set Application Window to use `Ctrl + Down` and bind it to `Mouse Button 5` (forward button)
+  - ~~Set Mission Control to use `Ctrl + Up` and bind it to `Mouse Button 4` (back button)~~
+  - ~~Set Application Window to use `Ctrl + Down` and bind it to `Mouse Button 5` (forward button)~~
+    - note: macos override can't prevent mouse side button default action to fire (i.e. browser forward/backward), install "mac mouse fix" to set this up instead
   - Set ShowDesktop to use `Hyper + Down`
 - Siri
   - Set Siri to use `Hyper + Space`
@@ -33,7 +34,7 @@ Then relaunch Finder app (hold OPTION key while right click finder icon in the t
 The Macbook camera notch is very annoying, you can only use about 40% of screen width for you menu bar icons (the icons will never go pass the camera notch). We can adjust below settings to use a more compact spacing for menu icons to fit more icons
 
 > defaults -currentHost write -globalDomain NSStatusItemSpacing -int 5
-> 
+>
 > defaults -currentHost write -globalDomain NSStatusItemSelectionPadding -int 6
 
 To revert, use `delete` instead of `write`. To check use `read` instead of `write`. A compact setting is likely to be 6 and 5, and a "normal" setting is like to be 12 and 8.
@@ -61,7 +62,7 @@ Install Homebrew:
 
 Follow the instructions after installation to add Homebrew to your PATH variable. For example, run these 2 commands after installation:
 > `echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/tomysaman/.zprofile`
-> 
+>
 > `eval "$(/opt/homebrew/bin/brew shellenv)"`
 
 Verify Homebrew installation by:
@@ -86,7 +87,7 @@ Install these:
   - Dropbox
   - Google Drive (this should also install Google Office apps)
 - Music:
-  - Spotify 
+  - Spotify
 - Graphic design and photos:
   - qView (photo viewer)
   - ImageOptim (image optimisation tool)
@@ -149,8 +150,8 @@ Install these:
 - Apps 1
   - Stats (system info in menu bar)
   - Rectangle (windows management)
-  - Mos (mouse helper tool, main use case is let you do natural scrolling with trackpad but reverse it when using a mouse)
-    - Alternative: LinearMouse or Scroll-reverser
+  - Mac Mouse Fix (mouse helper tool, let you do natural scrolling with trackpad but reverse it when using a mouse, also customise side buttons click / click+scroll / click+drag, and use modifier keys to do different scrolling behaviour - quick/slow/horizontal etc)
+    - Alternative: LinearMouse, Mos, or Scroll-reverser
   - Monitor Control
   - Karabiner-Elements (keyboard keys mapping tool) (follow my github repo to import and use my setup)
 - Apps 2
@@ -272,7 +273,7 @@ Install these:
 - icdiff (diff tool)
   - `icdiff <file1> <file2>` to compare the two files
 - cloc (count lines of codes)
-- lnav (log file viewer) 
+- lnav (log file viewer)
   - [docs](https://docs.lnav.org/en/latest/hotkeys.html)
   - `lnav <file>` or `lnav <directory>` to activate
   - Useful hotkeys
@@ -370,7 +371,7 @@ Install Oh My Zsh
 
 ## Update the Zsh configuration file
 
-The file can be found at: 
+The file can be found at:
 `~/.zshrc`
 
 ### Plugins
@@ -388,7 +389,7 @@ See [this page](https://github.com/unixorn/awesome-zsh-plugins) for the full lis
 - bbedit: for BBEdit editor
   - `bb` to start BBEdit
   - `bbpb` to create a new doc in BBEdit and paste the clipboard content
-- colorize: give color highlighting capability to cat and less commands 
+- colorize: give color highlighting capability to cat and less commands
   - `ccat` (colorized cat)
   - `cless` (colorized less)
 - copyfile: `copyfile` (alias to `clipfile`) that copy a file's content into clipboard
@@ -551,7 +552,7 @@ My passphrase is usually: t.1..16
   > `sshkeygen`
   - Hit enter to accept default file names. Enter your choosen passphrase when prompted.
 2. Add key to SSH agent:
-  > `eval 'ssh-agent'`  
+  > `eval 'ssh-agent'`
 
   > `ssh-add ~/.ssh/id_rsa`
 3. Add a config file in your .ssh folder to let MacOS remember your passphrase so you don't need to type it every times
