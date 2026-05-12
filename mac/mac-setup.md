@@ -111,7 +111,7 @@ Install these:
 - Dev tools #2:
   - iTerm2
   - Termius
-  - Amazon Q for Command Line (previously known as Fig - a great terminal tool that provides handy functions such as auto-complete)
+  - ~~Amazon Q for Command Line (previously known as Fig - a great terminal tool that provides handy functions such as auto-complete)~~
   - DevToys (a app provides many handy tools and functions for developers)
   - Keystore Explorer (for managing Java keystore)
 - Remote desktop and VPN:
@@ -259,6 +259,8 @@ Install these:
 - autojump (smart directory navigation)
   - See the message after brew install to add the required command into `~/.zshrc` to finish the setup
   - `j <directoryName>` to jump to that directory without the need to type out its path
+- zsh-autocomplete
+- zsh-syntax-highlighting
 - httpie (`curl` alternative)
   - [docs](https://httpie.io/docs/cli/examples)
   - `https [method] [address] param1=value1 param2=value2...` - where params are either URL var or FORM var
