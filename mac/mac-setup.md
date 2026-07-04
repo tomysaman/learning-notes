@@ -234,6 +234,7 @@ Use Homebrew to install these commands:
 > `brew install <command>`
 
 Install these:
+- git
 - eza (`ls` alternative)
   - Note: see the alias section further down, after setting up custom alias you can use eza as below:
   - `l` or `ls` to list files
