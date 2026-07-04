@@ -7,19 +7,19 @@
 
 > `Hyper = Ctrl + Opt + CMD + Shift`
 
-- Desktop & Dock -> Shortcuts
+- Settings -> Desktop & Dock -> Shortcuts
   - ~~Set Mission Control to use `Ctrl + Up` and bind it to `Mouse Button 4` (back button)~~
   - ~~Set Application Window to use `Ctrl + Down` and bind it to `Mouse Button 5` (forward button)~~
     - note: macos override can't prevent mouse side button default action to fire (i.e. browser forward/backward), install "mac mouse fix" to set this up instead
-  - Set ShowDesktop to use `Hyper + Down`
-- Siri
+- Settings -> Siri
   - Set Siri to use `Hyper + Space`
-- Keyboard
+- Settings -> Keyboard
   - Keyboard: Set pressing `Fn/Globe` key twice to start dictation
   - Shortcuts:
     - Mission Control:
       - Set Show Notification Centre to use `Hyper + Right`
       - Set Do Not Disturb On/Off to use `Hyper + Up`
+	  - Set ShowDesktop to use `Hyper + Down`
     - Input Sources: Set `Ctrl + Space` to switch input source
     - Spotlight: Disable Spotlight shortcut (Cmd + Space) as we will use it for Raycast / Alfred
 
@@ -365,8 +365,8 @@ Install these:
 
 # Install Zsh & Oh My Zsh
 
-Install Zsh
-> `brew install zsh`
+~~Install Zsh~~
+~~> `brew install zsh`~~
 
 Install Oh My Zsh
 > `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
