@@ -242,7 +242,7 @@ Install these:
   - `l --tree` to list files in tree structure
 - tldr (simplified `man` page)
   - `tldr <command>` to list a few of examples on how to use that command
-- fzfy (a better command history search tool)
+- mcfly (a better command history search tool)
   - Add `eval "$(mcfly init zsh)"` to `~/.zshrc` to complete the setup after installing mcfly
   - Use `ctrl + r` to activate
 - fd (`find` alternative, search filename using regexp)
