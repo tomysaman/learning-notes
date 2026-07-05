@@ -110,6 +110,7 @@ Install these:
   - Firezilla (it is not in Homebrew registry due to ppl saying it has malware in it and MacOS blocks it, but it does seems being working ok for the latest version now)
 - Dev tools #2:
   - iTerm2
+    - Add Natural Text Editing preset (so key combination such as Opt+Delete to delete per word will work). Under Settings -> Profiles -> Keys -> Key Bindings -> Add a presets
   - Termius
   - ~~Amazon Q for Command Line (previously known as Fig - a great terminal tool that provides handy functions such as auto-complete)~~
   - DevToys (a app provides many handy tools and functions for developers)
