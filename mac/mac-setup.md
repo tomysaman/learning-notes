@@ -236,7 +236,7 @@ Use Homebrew to install these commands:
 
 Install these:
 - git
-- gh (github CLI
+- gh (github CLI)
 - eza (`ls` alternative)
   - Note: see the alias section further down, after setting up custom alias you can use eza as below:
   - `l` or `ls` to list files
@@ -262,8 +262,10 @@ Install these:
   - Add `[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh` to `~/.zshrc` to complete the setup after installing
   - `j <directoryName>` to jump to that directory without the need to type out its path
   - `jo <directoryName>` to open that directory in Finder
-- zsh-autocomplete
-- zsh-syntax-highlighting
+- zsh-autocomplete (suggest command or arg/option as you type)
+  - Follow instructions after brew installation to complete the setup
+- zsh-syntax-highlighting (highlihgt command you run or code syntax in terminal command in colours)
+  - Follow instructions after brew installation to complete the setup
 - httpie (`curl` alternative)
   - [docs](https://httpie.io/docs/cli/examples)
   - `https [method] [address] param1=value1 param2=value2...` - where params are either URL var or FORM var
