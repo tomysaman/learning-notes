@@ -255,12 +255,12 @@ Install these:
   - use `-i` switch to not be case-sensitive search
 - zoxide (smart directory navigation)
   - Add `eval "$(zoxide init zsh)"` to .zshrc after installation
-  - `j <directoryName>` to jump to that directory
   - `z` to return to user home directory
   - `zi` to use fzf to filter and go to that directory
 - autojump (smart directory navigation)
   - Add `[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh` to `~/.zshrc` to complete the setup after installing
   - `j <directoryName>` to jump to that directory without the need to type out its path
+  - `jo <directoryName>` to open that directory in Finder
 - zsh-autocomplete
 - zsh-syntax-highlighting
 - httpie (`curl` alternative)
