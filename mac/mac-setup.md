@@ -259,7 +259,7 @@ Install these:
   - `z` to return to user home directory
   - `zi` to use fzf to filter and go to that directory
 - autojump (smart directory navigation)
-  - See the message after brew install to add the required command into `~/.zshrc` to finish the setup
+  - Add `[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh` to `~/.zshrc` to complete the setup after installing
   - `j <directoryName>` to jump to that directory without the need to type out its path
 - zsh-autocomplete
 - zsh-syntax-highlighting
