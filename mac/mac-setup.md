@@ -104,7 +104,7 @@ Install these:
 - Dev tools #1:
   - Sourcetree
   - GitHub Desktop
-  - Docker or OrbStack
+  - Docker Desktop or OrbStack or Rancher
   - Postman
   - Postman Agent (helper tool for Postman, such as capturing login session via browser so you can test API as you're already logged in)
   - Firezilla (it is not in Homebrew registry due to ppl saying it has malware in it and MacOS blocks it, but it does seems being working ok for the latest version now)
