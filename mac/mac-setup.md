@@ -243,7 +243,7 @@ Install these:
 - tldr (simplified `man` page)
   - `tldr <command>` to list a few of examples on how to use that command
 - mcfly (a better command history search tool)
-  - ~~Add `eval "$(mcfly init zsh)"` to `~/.zshrc` to complete the setup after installing mcfly~~
+  - Add `eval "$(mcfly init zsh)"` to `~/.zshrc` to complete the setup after installing mcfly
   - Use `ctrl + r` to activate
 - fd (`find` alternative, search filename using regexp)
   - `fd <search term in regexp>` to find files/directories with name matching the regexp
