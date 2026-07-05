@@ -354,6 +354,7 @@ Install these:
   - `cowsay -l` to see what arts can be used
 - For Git:
   - `git-extras` (provide extra Git commands and aliases)
+    - Follow instructions after brew installation to complete the setup
     - [docs](https://github.com/tj/git-extras/blob/master/Commands.md)
 - For Docker:
   - `ctop` (docker system monitoring)
