@@ -554,8 +554,6 @@ Set JetBrains Mono as the font in:
 
 Check `~/.ssh/`, if there is no .ssh folder or it is empty, generate a SSH key by following [this page](https://support.atlassian.com/bitbucket-cloud/docs/set-up-an-ssh-key/)
 
-My passphrase is usually: t.1..16
-
 1. Generate SSH key files:
   > `sshkeygen`
   - Hit enter to accept default file names. Enter your choosen passphrase when prompted.
