@@ -236,11 +236,12 @@ Use Homebrew to install these commands:
 
 Install these:
 - git
+- gh (github CLI
 - eza (`ls` alternative)
   - Note: see the alias section further down, after setting up custom alias you can use eza as below:
   - `l` or `ls` to list files
   - `l --tree` to list files in tree structure
-- tldr (simplified `man` page)
+- tlrc (replacement for tldr) - simplified `man` page for any command
   - `tldr <command>` to list a few of examples on how to use that command
 - mcfly (a better command history search tool)
   - Add `eval "$(mcfly init zsh)"` to `~/.zshrc` to complete the setup after installing mcfly
