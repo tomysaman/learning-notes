@@ -10,7 +10,7 @@
 - Settings -> Desktop & Dock -> Shortcuts
   - ~~Set Mission Control to use `Ctrl + Up` and bind it to `Mouse Button 4` (back button)~~
   - ~~Set Application Window to use `Ctrl + Down` and bind it to `Mouse Button 5` (forward button)~~
-    - note: macos override can't prevent mouse side button default action to fire (i.e. browser forward/backward), install "mac mouse fix" to set this up instead
+    - note: macos override can't prevent mouse side button default action to fire (i.e. browser forward/backward), install "LinearMouse" to set this up instead
 - Settings -> Siri
   - Set Siri to use `Hyper + Space`
 - Settings -> Keyboard
@@ -151,8 +151,8 @@ Install these:
 - Apps 1
   - Stats (system info in menu bar)
   - Rectangle (windows management)
-  - Mac Mouse Fix (mouse helper tool, let you do natural scrolling with trackpad but reverse it when using a mouse, also customise side buttons click / click+scroll / click+drag, and use modifier keys to do different scrolling behaviour - quick/slow/horizontal etc)
-    - Alternative: LinearMouse, Mos, or Scroll-reverser
+  - LinearMouse (mouse helper tool, let you do natural scrolling with trackpad but reverse it when using a mouse, also customise side buttons click)
+    - Alternative: Mos, or Scroll-reverser
   - Monitor Control
   - Karabiner-Elements (keyboard keys mapping tool) (follow my github repo to import and use my setup)
 - Apps 2
@@ -168,6 +168,7 @@ Install these:
   - xBar
   - Itsycal (quick calendar on menu bar)
   - FlyCut (clipboard tool)
+  - Sleepless (keep mac on when lid closed)
   - Captin (caps lock indicator)
   - [flux-markdown](https://github.com/xykong/flux-markdown) (ability to render markdown file in quicklook)
   - [zNotch](https://github.com/zkondor/znotch?tab=readme-ov-file) (hide notch)
@@ -205,8 +206,6 @@ Install these:
   - Dropover (file/image/text holder for various quick tasks)
   - Later (save your current session such as opened apps and windows, and easily restore them later when you need to)
 - Apps (group 3):
-  - Amphetamine (makes monitor screen & mac machine always on)
-    - or install `caffeine` using homebrew
   - Hand Mirror (quickly show your camera view)
     - or you can just use `raycast`'s `open camera` command
 
