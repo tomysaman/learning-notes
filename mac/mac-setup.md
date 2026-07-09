@@ -168,7 +168,8 @@ Install these:
   - xBar
   - Itsycal (quick calendar on menu bar)
   - FlyCut (clipboard tool)
-  - Sleepless (keep mac on when lid closed)
+  - Caffeine (keep mac on when lid closed)
+    - Alternative: Amphetamine (from app store)
   - Captin (caps lock indicator)
   - [flux-markdown](https://github.com/xykong/flux-markdown) (ability to render markdown file in quicklook)
   - [zNotch](https://github.com/zkondor/znotch?tab=readme-ov-file) (hide notch)
