@@ -316,6 +316,7 @@ Install these:
   - `jq '[filter]' [json_file]` or `echo [json_content_text] | jq '[filter]'` or `curl [rest_api_endpoint] | jq '[filter]'`
 - `btop` (system monitoring)
 - `cliamp` (play spotify, youtube music, radio)
+  - `brew install bjarneo/cliamp/cliamp`
   - cliamp setup to setup Spotify client ID; cliamp --provider spotify to start (or Tab switching to SRC then left/right to select Spotify;
 - `storm` (ssh manager)
   - `storm add`, `storm list`, `storm delete`, `storm web` (fire up a web server with UI for you to use storm)
