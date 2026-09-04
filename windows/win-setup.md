@@ -32,6 +32,11 @@ Download and run the installer (`setup.exe`) from [wezterm.org/install/windows.h
 ### Tabs
 - New tab: `Ctrl+Shift+T`
 - Close tab: `Ctrl+Shift+W`
+- Jump to tab N: `Ctrl+Shift+1` ... `Ctrl+Shift+8` (tabs 1-8), `Ctrl+Shift+9` = last tab
+- Next/previous tab: `Ctrl+Tab` / `Ctrl+Shift+Tab`, or `Ctrl+PageDown` / `Ctrl+PageUp`
+
+### Search
+- Search scrollback: `Ctrl+Shift+F`
 
 # Claude Code
 
