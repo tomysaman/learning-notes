@@ -53,6 +53,9 @@ Install from [code.claude.com/docs/en/quickstart](https://code.claude.com/docs/e
 - Ask Claude to have WezTerm start at the projects folder (e.g. `D:\Projects`)
 - Ask Claude to have WezTerm start with PowerShell, not cmd.exe
 - Ask Claude to setup an alias `cc` to run `claude` with PowerShell
+- Ask Claude Code to install these CLIs:
+  - GitHub CLI (`gh`)
+    > `winget install --id GitHub.cli -e --source winget`
 
 ## Status line
 
@@ -186,6 +189,11 @@ $sep = " $DIM|$RESET "
 Write-Output ($parts1 -join $sep)
 if ($parts2.Count -gt 0) { Write-Output ($parts2 -join $sep) }
 ```
+
+## Plugins
+
+- Add `chrome-devtools-mcp` (lets Claude drive Chrome DevTools — inspect pages, console, network, etc.)
+  > `claude plugin install chrome-devtools-mcp@claude-plugins-official`
 
 # cliamp
 
