@@ -38,6 +38,14 @@ Download and run the installer (`setup.exe`) from [wezterm.org/install/windows.h
 ### Search
 - Search scrollback: `Ctrl+Shift+F`
 
+### Color scheme
+
+WezTerm has no built-in command-palette entry for browsing/switching color schemes. Instead, a custom keybinding was added via `~/.wezterm.lua`: it cycles through all built-in color schemes alphabetically (using `wezterm.color.get_builtin_schemes()` + `window:set_config_overrides()`) and shows a toast notification with the active scheme name.
+
+- Cycle color scheme: `Ctrl+Shift+S`
+  - Not a WezTerm default binding (verified against WezTerm's default-keys docs) — free to use for this
+  - Ask Claude Code to set this up — it's not something you type directly, it requires a Lua config change in `~/.wezterm.lua` (uses `wezterm.color.get_builtin_schemes()` + `window:set_config_overrides()`)
+
 # Claude Code
 
 ## Install
