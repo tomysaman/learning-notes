@@ -15,30 +15,30 @@ Open a new terminal after install (PATH won't update in the current session) and
 
 [WezTerm](https://github.com/wezterm/wezterm) is a GPU-accelerated cross-platform terminal emulator.
 
-## Install
+### Install
 
 Download and run the installer (`setup.exe`) from [wezterm.org/install/windows.html](https://wezterm.org/install/windows.html)
 
-## Key bindings
+### Key bindings
 
-### Copy & Paste
+#### Copy & Paste
 - Copy: `Ctrl+Shift+C`
 - Paste: `Ctrl+Shift+V`
 
-### Move by word
+#### Move by word
 - `Ctrl+Left` / `Ctrl+Right` (PowerShell default)
 - `Alt+Left` / `Alt+Right` (alternative, shell-dependent)
 
-### Tabs
+#### Tabs
 - New tab: `Ctrl+Shift+T`
 - Close tab: `Ctrl+Shift+W`
 - Jump to tab N: `Ctrl+Shift+1` ... `Ctrl+Shift+8` (tabs 1-8), `Ctrl+Shift+9` = last tab
 - Next/previous tab: `Ctrl+Tab` / `Ctrl+Shift+Tab`, or `Ctrl+PageDown` / `Ctrl+PageUp`
 
-### Search
+#### Search
 - Search scrollback: `Ctrl+Shift+F`
 
-### Color scheme
+#### Color scheme
 
 WezTerm has no built-in command-palette entry for browsing/switching color schemes. Instead, a custom keybinding was added via `~/.wezterm.lua`: it cycles through all built-in color schemes alphabetically (using `wezterm.color.get_builtin_schemes()` + `window:set_config_overrides()`) and shows a toast notification with the active scheme name.
 
@@ -48,7 +48,7 @@ WezTerm has no built-in command-palette entry for browsing/switching color schem
 
 # Claude Code
 
-## Install
+### Install
 
 Install from [code.claude.com/docs/en/quickstart](https://code.claude.com/docs/en/quickstart). Run the following **from PowerShell** (not cmd.exe):
 
@@ -56,7 +56,7 @@ Install from [code.claude.com/docs/en/quickstart](https://code.claude.com/docs/e
 
 `claude.exe` gets installed to `C:\Users\tomyw\.local\bin\` — add that path as a `PATH` environment variable.
 
-## Setup
+### Setup
 
 - Login, then run `/terminal-setup` (ensure `Shift+Enter` works)
 - Run `/config`:
@@ -70,7 +70,7 @@ Install from [code.claude.com/docs/en/quickstart](https://code.claude.com/docs/e
   - GitHub CLI (`gh`)
     > `winget install --id GitHub.cli -e --source winget`
 
-## Status line
+### Status line
 
 Example of the current status line:
 
@@ -203,7 +203,7 @@ Write-Output ($parts1 -join $sep)
 if ($parts2.Count -gt 0) { Write-Output ($parts2 -join $sep) }
 ```
 
-## Plugins
+### Plugins
 
 - Add `chrome-devtools-mcp` (lets Claude drive Chrome DevTools — inspect pages, console, network, etc.)
   > `claude plugin install chrome-devtools-mcp@claude-plugins-official`
@@ -212,11 +212,11 @@ if ($parts2.Count -gt 0) { Write-Output ($parts2 -join $sep) }
 
 [cliamp](https://github.com/bjarneo/cliamp) is a terminal music player (Spotify, YouTube Music, radio).
 
-## Install
+### Install
 
 Download and install from the [releases page](https://github.com/bjarneo/cliamp/releases) — pick the `amd64.zip` one as it contains the DLL files needed for Spotify.
 
-## Setup
+### Setup
 
 - Run `cliamp setup` -> pick Spotify -> Create or supply the Client ID
 - Ask Claude to add the cliamp.exe location to `PATH`
