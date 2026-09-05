@@ -63,6 +63,7 @@ Install from [code.claude.com/docs/en/quickstart](https://code.claude.com/docs/e
   - Turn off "Enable remote control for all sessions"
   - Turn off "Continue automatically at usage limit"
 - Setup a status line (see below)
+- Run `/advisor` to setup advisor
 - Ask Claude to have WezTerm start at the projects folder (e.g. `D:\Projects`)
 - Ask Claude to have WezTerm start with PowerShell, not cmd.exe
 - Ask Claude to setup an alias `cc` to run `claude` with PowerShell
