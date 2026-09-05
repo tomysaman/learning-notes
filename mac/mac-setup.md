@@ -104,6 +104,7 @@ Install these:
 - AI
   - Claude Code, Claude Desktop
   - Herdr (via homebrew)
+    - [Cheatsheet](https://getmoshi.app/articles/herdr-cheatsheet)
 - Dev tools #1:
   - Sourcetree
   - GitHub Desktop
