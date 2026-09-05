@@ -38,6 +38,14 @@ Download and run the installer (`setup.exe`) from [wezterm.org/install/windows.h
 #### Search
 - Search scrollback: `Ctrl+Shift+F`
 
+#### Launch menu
+
+WezTerm's `launch_menu` lists alternative shells/profiles to spawn (e.g. PowerShell in a specific folder, Git Bash, WSL) without changing the default shell. Configured via `launch_menu` in `~/.wezterm.lua`.
+
+- Open launch menu: `Ctrl+Shift+L`
+  - Not a WezTerm default binding — free to use for this
+  - Ask Claude Code to set this up — requires a Lua config change in `~/.wezterm.lua` (`config.launch_menu` entries + a keybinding using `wezterm.action.ShowLauncherArgs { flags = 'LAUNCH_MENU_ITEMS' }`)
+
 #### Color scheme
 
 WezTerm has no built-in command-palette entry for browsing/switching color schemes. Instead, a custom keybinding was added via `~/.wezterm.lua`: it cycles through all built-in color schemes alphabetically (using `wezterm.color.get_builtin_schemes()` + `window:set_config_overrides()`) and shows a toast notification with the active scheme name.
