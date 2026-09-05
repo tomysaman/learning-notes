@@ -101,6 +101,9 @@ Install these:
 - Database clients:
   - DBeaver (MSSQL client)
   - Sequel Ace (MySQL client)
+- AI
+  - Claude Code, Claude Desktop
+  - Herdr (via homebrew)
 - Dev tools #1:
   - Sourcetree
   - GitHub Desktop
