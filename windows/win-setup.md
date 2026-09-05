@@ -229,6 +229,10 @@ Run the following **from PowerShell**:
 
 See [herdr.dev/docs/install](https://herdr.dev/docs/install/) for alternative install methods (if endpoint security blocks the script above, or for manual install).
 
+### Cheatsheet
+
+See the [herdr cheatsheet](https://getmoshi.app/articles/herdr-cheatsheet) for common commands.
+
 # cliamp
 
 [cliamp](https://github.com/bjarneo/cliamp) is a terminal music player (Spotify, YouTube Music, radio).
