@@ -217,6 +217,18 @@ if ($parts2.Count -gt 0) { Write-Output ($parts2 -join $sep) }
 - Add `chrome-devtools-mcp` (lets Claude drive Chrome DevTools — inspect pages, console, network, etc.)
   > `claude plugin install chrome-devtools-mcp@claude-plugins-official`
 
+# herdr
+
+[herdr](https://github.com/herdrdev/herdr) is a CLI for agent automation, session state/restore, and persistence/remote access.
+
+### Install
+
+Run the following **from PowerShell**:
+
+> `powershell -ExecutionPolicy Bypass -c "irm https://herdr.dev/install.ps1 | iex"`
+
+See [herdr.dev/docs/install](https://herdr.dev/docs/install/) for alternative install methods (if endpoint security blocks the script above, or for manual install).
+
 # cliamp
 
 [cliamp](https://github.com/bjarneo/cliamp) is a terminal music player (Spotify, YouTube Music, radio).
