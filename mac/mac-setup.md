@@ -102,8 +102,10 @@ Install these:
   - DBeaver (MSSQL client)
   - Sequel Ace (MySQL client)
 - AI
-  - Claude Code, Claude Desktop
+  - Claude Code
+  - Claude Desktop
   - Herdr (via homebrew)
+    - Disable iTerm2 right click menu so the right click for herdr menu works (iTerm2 Settings -> Pointer -> General -> Tick "Right click reported to apps, does not open menu")
     - [Cheatsheet](https://getmoshi.app/articles/herdr-cheatsheet)
 - Dev tools #1:
   - Sourcetree
