@@ -11,6 +11,20 @@ Open a new terminal after install (PATH won't update in the current session) and
 
 > Note: GitHub Desktop bundles its own internal copy of Git (e.g. `%LOCALAPPDATA%\GitHubDesktop\app-<version>\resources\app\git\cmd\git.exe`), but it's not added to `PATH`, so it won't be picked up by WezTerm/PowerShell/Claude Code. Installing Git for Windows separately avoids depending on GitHub Desktop's bundled version, which is versioned and can change on update.
 
+# Terminal: Windows Terminal
+
+### Settings
+
+`Ctrl+.` (or right click on the tab menu) to open settings, then change these:
+
+#### Interactions
+- Select to copy text: **On**
+- Default search URL: `https://www.google.com/search?q=%22%s%22`
+
+### Tips
+
+- `Ctrl+Shift+MouseScroll` to adjust background transparency
+
 # Terminal: WezTerm
 
 [WezTerm](https://github.com/wezterm/wezterm) is a GPU-accelerated cross-platform terminal emulator.
