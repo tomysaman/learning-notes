@@ -259,3 +259,7 @@ Download and install from the [releases page](https://github.com/bjarneo/cliamp/
 
 - Run `cliamp setup` -> pick Spotify -> Create or supply the Client ID
 - Ask Claude to add the cliamp.exe location to `PATH`
+
+# Other tools
+
+- [MarkText](https://github.com/marktext/marktext) - Markdown editor for viewing/editing MD files
