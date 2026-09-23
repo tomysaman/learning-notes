@@ -1,16 +1,5 @@
 # Windows Dev Setup Guide
 
-# Git
-
-Install Git for Windows via winget:
-> `winget install --id Git.Git -e --source winget`
-
-Or download the installer from [git-scm.com/download/win](https://git-scm.com/download/win)
-
-Open a new terminal after install (PATH won't update in the current session) and verify with `git --version`.
-
-> Note: GitHub Desktop bundles its own internal copy of Git (e.g. `%LOCALAPPDATA%\GitHubDesktop\app-<version>\resources\app\git\cmd\git.exe`), but it's not added to `PATH`, so it won't be picked up by WezTerm/PowerShell/Claude Code. Installing Git for Windows separately avoids depending on GitHub Desktop's bundled version, which is versioned and can change on update.
-
 # Terminal: Windows Terminal
 
 ### Settings
@@ -246,6 +235,40 @@ See [herdr.dev/docs/install](https://herdr.dev/docs/install/) for alternative in
 ### Cheatsheet
 
 See the [herdr cheatsheet](https://getmoshi.app/articles/herdr-cheatsheet) for common commands.
+
+# Git
+
+Install Git for Windows via winget:
+> `winget install --id Git.Git -e --source winget`
+
+Or download the installer from [git-scm.com/download/win](https://git-scm.com/download/win)
+
+Open a new terminal after install (PATH won't update in the current session) and verify with `git --version`.
+
+> Note: GitHub Desktop bundles its own internal copy of Git (e.g. `%LOCALAPPDATA%\GitHubDesktop\app-<version>\resources\app\git\cmd\git.exe`), but it's not added to `PATH`, so it won't be picked up by WezTerm/PowerShell/Claude Code. Installing Git for Windows separately avoids depending on GitHub Desktop's bundled version, which is versioned and can change on update.
+
+# Docker
+
+Docker Desktop on Windows can use either the WSL2 or Hyper-V backend. If using Hyper-V, virtualization needs to be enabled in the BIOS/UEFI firmware, not just as a Windows feature.
+
+If Docker Desktop fails to start the VM with an error like:
+
+> Virtual machine 'DockerDesktopVM' could not be started because the hypervisor is not running.
+
+Check whether virtualization is actually enabled in firmware:
+
+> `systeminfo | findstr /i "Virtualization"`
+
+If it reports `Virtualization Enabled In Firmware: No`, the CPU supports it but it's turned off in the BIOS/UEFI:
+
+1. Reboot into BIOS/UEFI setup (`Del`, `F2`, `F10`, or `F12` at boot, depending on motherboard).
+2. Enable **Intel VT-x** (Intel) or **SVM Mode** / **AMD-V** (AMD), usually under CPU/Advanced settings.
+3. Save and exit — this needs a full power cycle, not just a Windows restart.
+4. Re-check with the `systeminfo` command above; it should now say `Yes`.
+
+Separately, Docker Desktop may also warn that the user needs to be part of the `docker-users` local group. Verify with:
+
+> `whoami /groups | findstr docker`
 
 # cliamp
 
